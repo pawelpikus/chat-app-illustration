@@ -1,0 +1,40 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-gradient-dark: hsl(264, 100%, 61%);
+    --bg-gradient-light: hsl(293, 100%, 63%);
+    --bg-app: hsl(270, 20%, 96%);
+}
+
+body{
+    margin: 0;
+}
+
+.bg-element{
+    width: 80vw;
+    max-width: 350px;
+    height: 85vh;
+    position: fixed;
+    z-index: -1000;
+    
+}
+
+.bg-element-dark{
+    background-image: linear-gradient(to top right, var(--bg-gradient-dark), var(--bg-gradient-light));
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 50% 30%;
+    border-bottom-left-radius: 50% 30%;
+    transform: translateX(-30%);
+}
+
+.bg-element-light{
+    background-color: var(--bg-app);
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 50% 30%;
+    border-top-right-radius: 50% 30%;
+    transform: translateX(30%);
+}
