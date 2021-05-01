@@ -6,15 +6,23 @@
     --bg-gradient-dark: hsl(264, 100%, 61%);
     --bg-gradient-light: hsl(293, 100%, 63%);
     --bg-app: hsl(270, 20%, 96%);
+    --clr-chat-left:  hsl(289, 100%, 72%);
 }
 
 body{
     margin: 0;
+    background-color: var(--bg-app);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+/* background */
 
 .bg-element{
     width: 80vw;
-    max-width: 350px;
+    max-width: 500px;
     height: 85vh;
     position: fixed;
     z-index: -1000;
@@ -27,14 +35,35 @@ body{
     left: 0;
     border-bottom-right-radius: 50% 30%;
     border-bottom-left-radius: 50% 30%;
-    transform: translateX(-30%);
+    transform: translateX(-20%);
 }
 
 .bg-element-light{
-    background-color: var(--bg-app);
+    background-color: var(--clr-chat-left);
     bottom: 0;
     right: 0;
     border-top-left-radius: 50% 30%;
     border-top-right-radius: 50% 30%;
     transform: translateX(30%);
+    
+}
+/* container */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    max-width: 1000px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* mobile */
+.mobile{
+    width: 60%;
+    height: 550px;
+    background-color: var(--bg-app);
+    border: 10px solid #FFF;
+    border-radius: 35px; 
 }
