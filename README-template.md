@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution on github](https://github.com/pawelpikus/chat-app-illustration)
-- Live Site URL: [live site URL](https://pawelpikus.github.io/chat-app-illustration/)
+- Live Site URL: [live site on github pages](https://pawelpikus.github.io/chat-app-illustration/)
 
 ## My process
 
@@ -40,14 +40,8 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- CSS animations
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
