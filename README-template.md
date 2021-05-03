@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Animation.gif)
+![](./images/animation.gif)
 
 ### Links
 
